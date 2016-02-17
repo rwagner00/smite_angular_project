@@ -1,5 +1,5 @@
 # Tweaks
-* Convert all instances of private to protected
+* Figure out how to better implement the constructor method.
 * Add Public to all unscoped variables
 
 # Plan

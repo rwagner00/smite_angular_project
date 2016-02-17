@@ -3,26 +3,26 @@
  */
 
 export class Character {
-    name: string;
-    private baseDamage: number;
-    private health: number;
-    private mana: number;
-    private attackSpeed: number;
-    private movementSpeed: number;
-    private physProtection: number;
-    private magicProtection: number;
-    damagePerLevel: number;
-    healthPerLevel: number;
-    healthRegen: number;
-    healthRegenPerLevel: number;
-    manaPerLevel: number;
-    manaRegen: number;
-    manaRegenPerLevel: number;
-    attackSpeedPerLevel: number;
-    magicProtectionPerLevel: number;
-    physProtectionPerLevel: number;
-    characterLevel: number;
-    damageMultiplier: number;
+    public name: string;
+    protected baseDamage: number;
+    protected health: number;
+    protected mana: number;
+    protected attackSpeed: number;
+    protected movementSpeed: number;
+    protected physProtection: number;
+    protected magicProtection: number;
+    public damagePerLevel: number;
+    public healthPerLevel: number;
+    public healthRegen: number;
+    public healthRegenPerLevel: number;
+    public manaPerLevel: number;
+    public manaRegen: number;
+    public manaRegenPerLevel: number;
+    public attackSpeedPerLevel: number;
+    public magicProtectionPerLevel: number;
+    public physProtectionPerLevel: number;
+    public characterLevel: number;
+    public damageMultiplier: number;
 
 
     constructor(name: string, baseDamage: number, damagepl: number, hp: number,

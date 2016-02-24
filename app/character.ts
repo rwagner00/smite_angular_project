@@ -24,7 +24,7 @@ export class Character {
     characterLevel: number;
     damageMultiplier: number;
 
-
+    //@todo Replace monstrous constructor with a few methods using grouped attributes.
     constructor(name: string, baseDamage: number, damagepl: number, hp: number,
         hpPl: number, hpr: number, hprPl: number, mana: number, manaPl: number,
         manaReg: number, manaRegPl: number, attacksp: number, attackspPl: number,
